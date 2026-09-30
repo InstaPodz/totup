@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="referrer" content="no-referrer">
+<title>Totup Support</title>
+<!--
+  Source: support.md (same words). Marketer · D-090 (B-094) · 2026-09-28; R5 pass 2026-09-29 (D-103, D-104, D-105).
+  Self-contained: no scripts, no trackers, no external requests. The only other files are the two OFL fonts:
+  host them in fonts/ next to this page (from assets/fonts/mali and assets/fonts/gochi-hand, with their OFL.txt).
+  Opened from the repo, the second url() finds them in assets/fonts. Without either, the page falls back to the system's rounded font.
+  InstaPodz and support@instapodz.com are filled in (D-105). It is published on GitHub Pages with privacy.html (docs/store/upload-runbook.md §4).
+  R7 pass 2026-09-30 (D-110, D-110 addendum 1, D-111): Totup Plus, export, InstaPodz, Inc. and the Terms of Use link. The open Family Sharing line is in support.md's note.
+-->
+<style>
+@font-face { font-family: "Mali"; font-weight: 500; font-display: swap;
+  src: url("fonts/Mali-Medium.ttf") format("truetype"), url("../../../assets/fonts/mali/Mali-Medium.ttf") format("truetype"); }
+@font-face { font-family: "Gochi Hand"; font-display: swap;
+  src: url("fonts/GochiHand-Regular.ttf") format("truetype"), url("../../../assets/fonts/gochi-hand/GochiHand-Regular.ttf") format("truetype"); }
+:root { --page: #FFD84D; --paper: #FFFCEE; --ink: #1F2A7A; --head: #1F2A7A; --muted: #4A5290; --rule: #EADFA6; --hl: #FFE58A; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) {
+  :root { --page: #1F2A7A; --paper: #18215F; --ink: #FFF1A8; --head: #FFD84D; --muted: #D9D3A0; --rule: #2E3C92; --hl: #34449A; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; background: var(--page); color: var(--ink);
+  font: 500 1.0625rem/1.6 "Mali", ui-rounded, "SF Pro Rounded", system-ui, -apple-system, sans-serif; }
+.wrap { max-width: 44rem; margin: 0 auto; padding: 0 1rem; }
+header { padding: 2rem 0.25rem 1rem; color: var(--head); }
+.mark { margin: 0; font-size: 2.5rem; line-height: 1; }
+.tag { margin: 0.35rem 0 0; font-size: 1.05rem; }
+main { background: var(--paper); border-radius: 1.25rem; padding: 1.5rem 1.25rem 1.75rem; }
+h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 0.5rem; color: var(--head); }
+h2 { font-size: 1.25rem; line-height: 1.3; margin: 2rem 0 0.5rem; padding-top: 1rem; border-top: 2px dashed var(--rule); color: var(--head); }
+p, li { margin: 0.5rem 0; }
+ul { padding-left: 1.25rem; }
+strong { font-weight: 500; background: linear-gradient(transparent 58%, var(--hl) 58%); }
+.contact { background: var(--page); color: var(--head); border-radius: 1rem; padding: 0.75rem 1rem; }
+table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 1rem; }
+th, td { text-align: left; vertical-align: top; padding: 0.45rem 0.5rem 0.45rem 0; border-bottom: 1px solid var(--rule); }
+th { color: var(--muted); font-weight: 500; }
+td.say { white-space: normal; }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+.kid { font-family: "Gochi Hand", "Bradley Hand", cursive; font-size: 1.6rem; line-height: 1.3; margin: 1rem 0; padding: 0.75rem 1rem; border-left: 4px solid var(--page); }
+a { color: inherit; text-decoration-thickness: 0.08em; text-underline-offset: 0.18em; }
+a:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; border-radius: 0.25rem; }
+footer { padding: 1.25rem 0.25rem 2.5rem; color: var(--head); font-size: 0.95rem; }
+footer p { margin: 0.25rem 0; }
+@media (min-width: 40rem) { main { padding: 2rem 2.25rem 2.25rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="mark">Totup</p>
+  <p class="tag">Say it or tap it. Tot it up.</p>
+</header>
+<main>
+<h1>Support</h1>
+<p>Totup is an expense notebook you can tap or talk to. Type or say what you spent, and Totup writes it down and draws your day. Here’s how it works, and how to reach us.</p>
+<p class="contact">Contact: <a href="mailto:support@instapodz.com">support@instapodz.com</a></p>
+
+<h2>How do I add an expense?</h2>
+<p>Tap Add at the bottom of the page and type one line, the way you’d say it: “latte at Blue Bottle 6”. As you type, Totup shows what it read: the amount, what it was, where, the category and the day. Tap any part to change it, then tap Save.</p>
+<ul>
+  <li><strong>Money that came in:</strong> choose Received at the top, or just type it, like “got paid 3200”.</li>
+  <li><strong>Another day:</strong> tap Yesterday, or Pick a day.</li>
+  <li><strong>Your own note:</strong> fill in Your note, and the kid won’t write one.</li>
+</ul>
+
+<h2>Can I say it instead?</h2>
+<p>Yes. Say “Hey Siri, log with Totup”. Siri asks what you spent. Answer in one go, like “latte at Blue Bottle, six” or “coffee five”. Totup files it from your words, the same as a typed line.</p>
+<p>You can also name the kind of expense up front, as in “Log coffee with Totup”. Then Siri asks how much.</p>
+
+<h2>Can I use the Action Button?</h2>
+<p>Yes, on iPhones that have one. Set it once in Settings › Action Button › Shortcut › Totup › Log with Totup. From then on, press the Action Button, and Siri asks what you spent.</p>
+
+<h2>Can I type to Siri instead of talking?</h2>
+<p>Yes. Type the same words you’d say. Where you type depends on your iPhone (Apple’s steps):</p>
+<ul>
+  <li><strong>With Siri AI:</strong> swipe down from the center of the screen, then type in the Search or ask field.</li>
+  <li><strong>With Apple Intelligence but not Siri AI:</strong> turn on Type to Siri in Settings, then double-tap the bottom of the screen.</li>
+  <li><strong>On other iPhones:</strong> turn on Type to Siri in Settings › Accessibility › Siri, then activate Siri and type.</li>
+</ul>
+<p>You can also run any Totup action from the Shortcuts app, or find it in Spotlight.</p>
+
+<h2>How do I change or delete an expense?</h2>
+<p>Tap it to edit or delete it. Change the amount, what it was, where, the category, the day or the note, then tap Save. To remove it, tap Delete. Nothing asks “Are you sure?”: right after any change, Undo shows at the bottom of the page.</p>
+<p>Older days are on This month: tap a drawn day to open it, then tap the expense.</p>
+
+<h2>How do I undo?</h2>
+<ul>
+  <li><strong>In the app:</strong> tap Undo, right after the change.</li>
+  <li><strong>By voice:</strong> say “Totup undo”. It removes the last thing you logged, puts back the last change you made, or brings back what you just deleted.</li>
+  <li><strong>On the Lock Screen:</strong> right after you log, the Live Activity on the Lock Screen and in the Dynamic Island has an Undo for that expense.</li>
+</ul>
+
+<h2>How do I fix a category?</h2>
+<p>Tap the expense, tap Category, and pick one. Or say “That was Travel in Totup”, with any category’s name, and the last expense moves there.</p>
+<p>The categories are Food, Drinks, Groceries, Delivery, Transport, Car, Travel, Housing, Utilities, Phone &amp; internet, Subscriptions, Shopping, Clothes, Electronics, Home goods, Fun, Hobbies, Fitness, Personal care, Health, Pharmacy, Learning, Kids, Pets, Gifts, Donations, Insurance, Taxes &amp; fees, Alcohol, Tobacco &amp; vape, Services and Other.</p>
+
+<h2>How do I rename an expense?</h2>
+<p>Tap it and change What. Or say “Totup rename it”: Siri asks what it should be called, and you say the new name.</p>
+
+<h2>How do I write or clear a note?</h2>
+<p>Tap the expense, then:</p>
+<ul>
+  <li><strong>Write your own:</strong> your note replaces the kid’s, and the kid never writes over it.</li>
+  <li><strong>Clear note:</strong> no note at all.</li>
+  <li><strong>New note from the kid:</strong> the kid writes another one after you tap Save.</li>
+</ul>
+<p>By voice: “Totup change the note”, “Totup clear the note” or “Totup get a new note”.</p>
+
+<h2>How do I set a budget?</h2>
+<p>On This month, tap Set a budget, type the amount and tap Save. It stands for this month and after, until you change it. Change budget and Clear budget are in the same place. Or say “Totup set budget”.</p>
+
+<h2>What does Totup cost?</h2>
+<p>Your first 7 days of logging are free: any day you log at least one thing counts as one of the 7. Nothing is charged unless you subscribe, so there’s nothing to cancel.</p>
+<p>After that, adding needs Totup Plus: $24.99 a year or $3.99 a month in the U.S. The App Store shows the price in your currency before you confirm.</p>
+<p>Without Totup Plus, your pages stay yours. You can read every page, search, share your month card, export and delete. You can’t add or change rows, and the kid doesn’t write new notes. Siri still answers questions like “Totup how much today”, but saves nothing new.</p>
+
+<h2>How do I subscribe?</h2>
+<p>In Totup, tap Help, then Totup Plus. After your free days, the same screen opens when you start Totup. Pick yearly or monthly, and Apple’s purchase sheet does the rest.</p>
+<p>Payment is charged to your Apple Account when you confirm. Totup Plus renews automatically at the plan’s price unless you cancel at least 24 hours before the period ends.</p>
+
+<h2>How do I restore Totup Plus on a new iPhone?</h2>
+<p>Sign in with the same Apple Account. Totup Plus usually turns on by itself. If it doesn’t, tap Help, then Totup Plus, then Restore purchases.</p>
+
+<h2>How do I cancel Totup Plus?</h2>
+<p>In Settings, tap your name, then Subscriptions, then Totup Plus. Or in Totup, tap Help, then Totup Plus, then Manage subscription. Deleting the app doesn’t cancel it.</p>
+<p>After you cancel, Totup Plus stays on until the end of the period you paid for. Then your pages stay yours to read and export.</p>
+
+<h2>How do I get a refund?</h2>
+<p>Apple handles refunds. Go to <a href="https://reportaproblem.apple.com" rel="noopener noreferrer">reportaproblem.apple.com</a>, choose “I’d like to”, then “Request a refund”.</p>
+
+<h2>What can I say?</h2>
+<table>
+  <thead><tr><th scope="col">To</th><th scope="col">Say</th></tr></thead>
+  <tbody>
+    <tr><td>Log an expense</td><td class="say">Log with Totup</td></tr>
+    <tr><td>Log a kind of expense</td><td class="say">Log coffee with Totup</td></tr>
+    <tr><td>Add income</td><td class="say">Add income to Totup</td></tr>
+    <tr><td>Undo the last log or change</td><td class="say">Totup undo</td></tr>
+    <tr><td>Move it to another category</td><td class="say">That was Travel in Totup</td></tr>
+    <tr><td>Rename it</td><td class="say">Totup rename it</td></tr>
+    <tr><td>Write your own note</td><td class="say">Totup change the note</td></tr>
+    <tr><td>Clear the note</td><td class="say">Totup clear the note</td></tr>
+    <tr><td>Get a new note from the kid</td><td class="say">Totup get a new note</td></tr>
+    <tr><td>Today’s total</td><td class="say">Totup how much today</td></tr>
+    <tr><td>This week, this month or last month</td><td class="say">Totup how much this week</td></tr>
+    <tr><td>What you just logged</td><td class="say">Totup what I just logged</td></tr>
+    <tr><td>Where the money went</td><td class="say">Totup where my money went</td></tr>
+    <tr><td>Set a monthly budget</td><td class="say">Totup set budget</td></tr>
+    <tr><td>What’s left of the budget</td><td class="say">Totup budget left</td></tr>
+    <tr><td>See the month as drawings</td><td class="say">Totup draw my month</td></tr>
+    <tr><td>Share the month card</td><td class="say">Share my Totup card</td></tr>
+    <tr><td>See every phrase</td><td class="say">Totup help</td></tr>
+    <tr><td>Replay the tour</td><td class="say">Totup teach me</td></tr>
+  </tbody>
+</table>
+<p>In the app, Help (at the bottom of every page) shows the same list.</p>
+<p>Without Totup Plus, the questions still get answers. The phrases that log or change something save nothing, and Siri says so.</p>
+
+<h2>Who is the kid?</h2>
+<p>The kid is a made-up character, about six, who keeps a notebook of the things grown-ups buy. It writes one short line under an expense, puzzled and kind. It never judges, never gives advice and never mentions an amount.</p>
+<p class="kid"><span class="vh">The kid wrote: </span>a taco is a sandwich that fell asleep sideways.</p>
+<ul>
+  <li><strong>Where notes are written:</strong> on your iPhone, by Apple’s on-device model (Apple Intelligence), or picked from lines built into the app. They never leave your iPhone.</li>
+  <li><strong>No note at all:</strong> health, insurance, taxes, debt, donations, childcare, alcohol, tobacco and betting.</li>
+  <li><strong>VoiceOver</strong> reads a note as “The kid wrote: …”.</li>
+  <li><strong>Not your child:</strong> the kid isn’t a real person.</li>
+</ul>
+
+<h2>Why wasn’t my card payment saved?</h2>
+<p>Totup keeps spending: money that goes out for a thing or a service.</p>
+<ul>
+  <li><strong>Not saved:</strong> paying a credit card bill, moving money between your accounts, saving, investing, taking cash from an ATM, lending and borrowing only move money. Totup says so, saves nothing, and you add the purchases themselves instead.</li>
+  <li><strong>Saved:</strong> a loan payment, card interest and fees, and paying a friend back for dinner. Each is filed under what it paid for.</li>
+</ul>
+
+<h2>Where is my data?</h2>
+<p>Only on your iPhone. There’s no account, no sign-up and no Totup server. The details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+<h2>How do I export my data?</h2>
+<p>Tap Help, then Export my rows (it’s on This month too). Totup makes a CSV file of every row and opens the share sheet, so you can save it to Files or send it. Each row has the date, the item, the place, the category, the amount, your note, the kid’s note, and whether you spent or received it.</p>
+<p>Export is free, with or without Totup Plus.</p>
+
+<h2>How do I delete my data?</h2>
+<ul>
+  <li><strong>One expense:</strong> tap it, then Delete. Or say “Totup undo” to remove the last one.</li>
+  <li><strong>Everything:</strong> delete the app, in Settings › General › iPhone Storage › Totup › Delete App.</li>
+  <li><strong>Totup Plus:</strong> deleting the app doesn’t cancel it. To stop paying, cancel it in Settings (see “How do I cancel Totup Plus?”).</li>
+</ul>
+
+<h2>The Action Button and Controls</h2>
+<ul>
+  <li><strong>The Action Button</strong> can run “Log with Totup” (see above), or one of Totup’s Controls.</li>
+  <li><strong>Two Controls:</strong> “Totup today” shows today’s total on the Lock Screen for a moment. “Share my month” opens the share sheet with your month card, which shows no amounts.</li>
+  <li><strong>Where they go:</strong> add them to Control Center or the Lock Screen, like any other control.</li>
+</ul>
+
+<h2>Still stuck?</h2>
+<p>Write to <a href="mailto:support@instapodz.com">support@instapodz.com</a>. Tell us your iPhone model, your iOS version, and what you typed or said.</p>
+</main>
+<footer>
+  <p>© 2026 InstaPodz, Inc.</p>
+  <p><a href="support.html" aria-current="page">Support</a> · <a href="privacy.html">Privacy Policy</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener noreferrer">Terms of Use</a></p>
+</footer>
+</div>
+</body>
+</html>
